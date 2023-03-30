@@ -103,7 +103,7 @@ function generatePassword() {
     function pass(inputLength) {
       let result ='';
       const characters = choises[0];
-      const charactersLength = characters.length
+      const charactersLength = characters.length;
       let counter = 0;
       while (counter < inputLength) {
         result += characters.charAt(Math.floor(Math.random() * charactersLength));
