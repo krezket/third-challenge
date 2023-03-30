@@ -62,6 +62,9 @@ function generatePassword() {
   else if (inputLength < 8) {
     alert("Bruh")
   }
+  else {
+    alert("Error: \nNumbers only! \n(8-128)")
+  }
 
   function cap() {
     var capLet = confirm("Would you like to add capital letters? \n(Recommended)");
