@@ -57,10 +57,10 @@ function generatePassword() {
      cap();
   }
   else if (inputLength > 128) {
-    alert("Bruh.......")
+    alert("Bruh....... Too many characters.")
   }
   else if (inputLength < 8) {
-    alert("Bruh")
+    alert("Bruh. Not enough characters.")
   }
   else {
     alert("Error: \nNumbers only! \n(8-128)")
