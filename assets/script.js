@@ -6,9 +6,12 @@ var characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890
 // Write password to the #password input
 function writePassword() {
   var password = generatePassword();
-  alert("Your new password has been generated. Please refresh the page before generating a new one.")
+  alert("Your new password has been generated.")
   console.log(password)
   var passwordText = document.querySelector("#password");
+  capOne = 1
+  numOne = 1
+  spclOne = 1
 
   passwordText.value = password;
 }
