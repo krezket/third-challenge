@@ -98,7 +98,7 @@ function generatePassword() {
   if ((capOne === 2) && (numOne === 2) && (spclOne === 2)) {
     function pass(inputLength) {
       let result ='';
-      const characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!!@@##$$%%&&??';
+      const characters = choises[0];
       const charactersLength = characters.length
       let counter = 0;
       while (counter < inputLength) {
@@ -111,7 +111,7 @@ function generatePassword() {
   else if ((capOne === 2) && (numOne === 2) && (spclOne === 0)) {
     function pass(inputLength) {
       let result ='';
-      const characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+      const characters = choises[1];
       const charactersLength = characters.length
       let counter = 0;
       while (counter < inputLength) {
@@ -124,7 +124,7 @@ function generatePassword() {
   else if ((capOne === 2) && (numOne === 0) && (spclOne === 2)) {
     function pass(inputLength) {
       let result ='';
-      const characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz!!@@##$$%%&&??';
+      const characters = choises[2];
       const charactersLength = characters.length
       let counter = 0;
       while (counter < inputLength) {
@@ -137,7 +137,7 @@ function generatePassword() {
   else if ((capOne === 2) && (numOne === 0) && (spclOne === 0)) {
     function pass(inputLength) {
       let result ='';
-      const characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz';
+      const characters = choises[3];
       const charactersLength = characters.length
       let counter = 0;
       while (counter < inputLength) {
@@ -150,7 +150,7 @@ function generatePassword() {
   else if ((capOne === 0) && (numOne === 0) && (spclOne === 0)) {
     function pass(inputLength) {
       let result ='';
-      const characters = 'abcdefghijklmnopqrstuvwxyz';
+      const characters = choises[4];
       const charactersLength = characters.length
       let counter = 0;
       while (counter < inputLength) {
@@ -163,7 +163,7 @@ function generatePassword() {
   else if ((capOne === 0) && (numOne === 0) && (spclOne === 2)) {
     function pass(inputLength) {
       let result ='';
-      const characters = 'abcdefghijklmnopqrstuvwxyz!!@@##$$%%&&??';
+      const characters = choises[5];
       const charactersLength = characters.length
       let counter = 0;
       while (counter < inputLength) {
@@ -176,7 +176,7 @@ function generatePassword() {
   else if ((capOne === 0) && (numOne === 2) && (spclOne === 0)) {
     function pass(inputLength) {
       let result ='';
-      const characters = 'abcdefghijklmnopqrstuvwxyz0123456789';
+      const characters = choises[6];
       const charactersLength = characters.length
       let counter = 0;
       while (counter < inputLength) {
@@ -189,7 +189,7 @@ function generatePassword() {
   else if ((capOne === 0) && (numOne === 2) && (spclOne === 2)) {
     function pass(inputLength) {
       let result ='';
-      const characters = 'abcdefghijklmnopqrstuvwxyz0123456789!!@@##$$%%&&??';
+      const characters = choises[7];
       const charactersLength = characters.length
       let counter = 0;
       while (counter < inputLength) {
